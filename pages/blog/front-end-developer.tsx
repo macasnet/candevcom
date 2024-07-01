@@ -12,21 +12,21 @@ const FrontEndDeveloperPage = () => {
         <div className="bg-white shadow-md rounded-lg p-6 mb-6">
           <h2 className="text-2xl font-semibold mb-4">Front-end Developer Nedir?</h2>
           <p className="text-gray-700">
-            Front-end developer, kullanıcıların doğrudan etkileşimde bulunduğu web siteleri ve uygulamaların ön yüzünü frontend geliştiren yazılım geliştiricisidir. Kullanıcı arayüzü UI tasarımını kodlamakla görevlidir.
+            {"Front-end developer, kullanıcıların doğrudan etkileşimde bulunduğu web siteleri ve uygulamaların ön yüzünü frontend geliştiren yazılım geliştiricisidir. Kullanıcı arayüzü UI tasarımını kodlamakla görevlidir."}
           </p>
         </div>
 
         <div className="bg-white shadow-md rounded-lg p-6 mb-6">
           <h2 className="text-2xl font-semibold mb-4">Ne İş Yapar?</h2>
           <p className="text-gray-700">
-            Front-end developerlar, HTML, CSS ve JavaScript kullanarak web sitelerinin ve uygulamalarının kullanıcı arayüzlerini oluşturur ve geliştirirler. Kullanıcı deneyimini UX iyileştirmek için interaktif öğeler ekler, web uygulamalarını mobil cihazlara uygun hale getirirler.
+            {"Front-end developerlar, HTML, CSS ve JavaScript kullanarak web sitelerinin ve uygulamalarının kullanıcı arayüzlerini oluşturur ve geliştirirler. Kullanıcı deneyimini UX iyileştirmek için interaktif öğeler ekler, web uygulamalarını mobil cihazlara uygun hale getirirler."}
           </p>
         </div>
 
         <div className="bg-white shadow-md rounded-lg p-6 mb-6">
           <h2 className="text-2xl font-semibold mb-4">Hangi Yazılım Dillerini ve Yetkinlikleri Bilmelidir?</h2>
           <p className="text-gray-700">
-            Front-end developerlar, HTML, CSS ve JavaScript temel bilgilerine sahip olmalıdır. Ayrıca, modern JavaScript çerçeveleri ve kütüphaneleri React, Vue.js, Angular gibi hakkında bilgi sahibi olmaları önemlidir. Responsive design, CSS preprocessors örneğin, Sass veya Less ve version control sistemleri Git gibi konularında yetkin olmaları beklenir.
+            {"Front-end developerlar, HTML, CSS ve JavaScript temel bilgilerine sahip olmalıdır. Ayrıca, modern JavaScript çerçeveleri ve kütüphaneleri React, Vue.js, Angular gibi hakkında bilgi sahibi olmaları önemlidir. Responsive design, CSS preprocessors örneğin, Sass veya Less ve version control sistemleri Git gibi konularında yetkin olmaları beklenir."}
           </p>
         </div>
       </div>

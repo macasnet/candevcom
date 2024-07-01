@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 const Projects = () => {
   return (
     <div className="container mx-auto p-4">

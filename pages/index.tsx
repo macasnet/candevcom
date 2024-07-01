@@ -1,6 +1,7 @@
 // pages/index.tsx
 
 import Layout from '../components/Layout';
+import Image from 'next/image';
 
 const Home: React.FC = () => {
   return (
@@ -10,7 +11,7 @@ const Home: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center justify-center">
             {/* Sol tarafta resim */}
             <div className="md:w-1/2 mb-4 md:mb-0">
-              <img src="/images/homeimg.png" alt="Profile" className="rounded-lg shadow-lg w-full h-auto" />
+              <Image src="/images/homeimg.png" alt="Profile" className="rounded-lg shadow-lg w-full h-auto" width={600} height={400} />
             </div>
             
             {/* Sağ tarafta metin */}
