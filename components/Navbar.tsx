@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Sağ taraf - Hamburger Menü ve Dropdown Menü */}
-        <div className="md:hidden absolute">
+        <div className="md:hidden relative">
           <button
             type="button"
             onClick={toggleMenu}
