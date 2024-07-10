@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Sol taraf - Marka Adı */}
         <div className="flex items-center">
-          <Link href="/" passHref>
+          <Link href="/" passHref legacyBehavior>
             <span className="text-black text-3xl font-thin cursor-pointer">
               CanDEV<span className="text-red-500">.com</span>
             </span>
@@ -65,7 +65,7 @@ const Navbar: React.FC = () => {
           {isOpen && (
             <div className="absolute top-full left-0 right-0 bg-white border border-gray-600 mt-1 rounded-lg shadow-lg z-10">
               <div className="flex flex-col p-4 space-y-2">
-                <Link href="/blog" passHref>
+                <Link href="/blog" passHref legacyBehavior>
                   <span
                     onClick={toggleMenu}
                     className="text-black hover:text-gray-800 cursor-pointer"
@@ -74,7 +74,7 @@ const Navbar: React.FC = () => {
                   </span>
                 </Link>
                 
-                <Link href="/projects" passHref>
+                <Link href="/projects" passHref legacyBehavior>
                   <span
                     onClick={toggleMenu}
                     className="text-black hover:text-gray-800 cursor-pointer"
@@ -82,7 +82,7 @@ const Navbar: React.FC = () => {
                     Projects
                   </span>
                 </Link>
-                <Link href="/about" passHref>
+                <Link href="/about" passHref legacyBehavior>
                   <span
                     onClick={toggleMenu}
                     className="text-black hover:text-gray-800 cursor-pointer"
@@ -97,22 +97,31 @@ const Navbar: React.FC = () => {
 
         {/* Büyük ekranlarda normal menü */}
         <div className="hidden md:flex space-x-4">
-          <Link href="/blog" passHref>
-            <a className="bg-white text-black px-4 py-2 rounded-lg border border-gray-600 hover:bg-gray-300">
+          <Link
+            href="/blog"
+            passHref
+            className="bg-white text-black px-4 py-2 rounded-lg border border-gray-600 hover:bg-gray-300">
+            
               Blog
-            </a>
+            
           </Link>
           
-          <Link href="/projects" passHref>
-            <a className="bg-white text-black px-4 py-2 rounded-lg border border-gray-600 hover:bg-gray-300">
+          <Link
+            href="/projects"
+            passHref
+            className="bg-white text-black px-4 py-2 rounded-lg border border-gray-600 hover:bg-gray-300">
+            
               Projects
-            </a>
+            
           </Link>
 
-          <Link href="/about" passHref>
-            <a className="bg-white text-black px-4 py-2 rounded-lg border border-gray-600 hover:bg-gray-300">
+          <Link
+            href="/about"
+            passHref
+            className="bg-white text-black px-4 py-2 rounded-lg border border-gray-600 hover:bg-gray-300">
+            
               About
-            </a>
+            
           </Link>
         </div>
         
