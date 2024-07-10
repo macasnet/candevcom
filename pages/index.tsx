@@ -17,7 +17,7 @@ const Home: React.FC = () => {
             {/* Sağ tarafta metin */}
             <div className="md:w-1/2 md:ml-8 text-center md:text-left">
               <div className="text-orange-600 text-7xl md:text-6xl font-bold mb-4">Hello! - I am Can</div>
-              <div className="font-bold text-lg md:text-2xl mb-4">A Front-End Developer Based in Ankara</div>
+              <div className="font-bold text-lg md:text-2xl mb-4">A Front-End Developer</div>
               {/* Animasyonlu metin için özel tasarım eklenebilir */}
               <div className="text-base md:text-lg text-gray-600">
                 {/* Buraya ek açıklamalar veya detaylar eklenebilir */}
