@@ -1,5 +1,3 @@
-// components/Navbar.tsx
-
 import React, { useState } from 'react';
 import Link from 'next/link';
 
@@ -66,29 +64,28 @@ const Navbar: React.FC = () => {
             <div className="absolute top-full left-0 right-0 bg-white border border-gray-600 mt-1 rounded-lg shadow-lg z-10">
               <div className="flex flex-col p-4 space-y-2">
                 <Link href="/blog" passHref legacyBehavior>
-                  <span
+                  <button
                     onClick={toggleMenu}
-                    className="text-black hover:text-gray-800 cursor-pointer"
+                    className="bg-white text-black px-4 py-2 rounded-lg border border-gray-600 hover:bg-gray-300 w-full"
                   >
                     Blog
-                  </span>
+                  </button>
                 </Link>
-                
                 <Link href="/projects" passHref legacyBehavior>
-                  <span
+                  <button
                     onClick={toggleMenu}
-                    className="text-black hover:text-gray-800 cursor-pointer"
+                    className="bg-white text-black px-4 py-2 rounded-lg border border-gray-600 hover:bg-gray-300 w-full"
                   >
                     Projects
-                  </span>
+                  </button>
                 </Link>
                 <Link href="/about" passHref legacyBehavior>
-                  <span
+                  <button
                     onClick={toggleMenu}
-                    className="text-black hover:text-gray-800 cursor-pointer"
+                    className="bg-white text-black px-4 py-2 rounded-lg border border-gray-600 hover:bg-gray-300 w-full"
                   >
                     About
-                  </span>
+                  </button>
                 </Link>
               </div>
             </div>
